@@ -1,0 +1,36 @@
+.topbar{
+    background-color: black;
+    height: 35px;
+    width: 100%;
+}
+.access-links{
+    float: right;
+    color: aliceblue;
+    margin-top: -7px;
+}
+.row-access-links{
+    max-width: 94%;
+    margin: 0 auto;
+}
+.header-content{
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-access-links{
+    max-width: 900px;
+}
+.topbar .access-links li{
+    display: inline-block;
+    list-style: none;
+    padding-bottom: 5px;
+
+   font-size: 12px;
+}
+.topbar .access-links li a{
+   color: aliceblue;
+   padding: 5px;
+   font-size: 12px;
+}

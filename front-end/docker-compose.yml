@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+
+  webjump-frontend:
+    container_name: webjump-frontend
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - '8081:80'
+    volumes:
+      - '.:/app'
+      - '/app/node_modules'

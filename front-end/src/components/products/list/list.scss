@@ -1,0 +1,14 @@
+@import "@/assets/css/theme.scss";
+
+.v-pagination__item--active {
+  background-color: $secondary !important;
+}
+.box-products{
+    min-height: 450px !important;
+}
+.box-not-found{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+}

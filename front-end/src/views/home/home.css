@@ -1,0 +1,28 @@
+.home-content{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px;
+}
+.slide-home{
+    height: 255px;
+    width: 100%;
+    background-color: grey;
+}
+.title-content{
+    text-align: left;
+}
+.text-content-home{
+    text-align: justify;
+    font-weight: 100;
+    font-size: 15px;
+    font-family: 'open sans';
+}
+.col-content{
+    margin: 0 auto;
+}
+@media only screen and (max-width: 680px) {
+    .sidemenu-home {
+     display: none !important;
+    }
+}
+  
