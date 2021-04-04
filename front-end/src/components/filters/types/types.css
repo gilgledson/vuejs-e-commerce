@@ -1,0 +1,27 @@
+.title-filter{
+    color: #66908b;
+    text-align: left;
+    font-family: 'open sans';
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 15px;
+}
+.filter-menus li a{
+    color: #657271;
+    text-align: left;
+    text-decoration: none;
+    cursor: pointer;
+}
+.activeLink{
+    text-decoration: underline;
+}
+.filter-menus li{
+    text-decoration: none;
+    text-align: left;
+    padding-bottom:10px ;
+}
+.filter-menus{
+    padding-left:20px ;
+    margin-top: 15px;
+}

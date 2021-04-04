@@ -1,0 +1,31 @@
+@import "@/assets/css/theme.scss";
+
+.title-filter{
+    color: $text-color;
+    text-align: left;
+    font-family: 'open sans';
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+}
+.filter-menus li a{
+    color: $text-color;
+    text-align: left;
+    text-decoration: none;
+}
+.router-link-active{
+    color: #85bfbd !important;
+    text-shadow: none;
+}
+.activeMenu{
+    border-bottom: 2px solid $secondary;
+}
+.filter-menus li{
+    text-decoration: none;
+    text-align: left;
+    padding-bottom:10px ;
+}
+.filter-menus{
+    padding-left:20px ;
+    margin-top: 15px;
+}
