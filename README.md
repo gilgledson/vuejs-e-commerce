@@ -47,11 +47,15 @@ This project build with.
 ```sh
    npm start
  ```
-5. Build image front-end 
+5. Access front-end path
+ ```sh
+   cd vuejs-e-commerce/front-end
+ ```
+6. Build Docker image
   ```sh
    docker-compose up -d --build
  ```
-6. access front-end
+7. access link
  ```sh 
     http://localhost:8081/
 ```
