@@ -1,0 +1,28 @@
+@import "@/assets/css/theme.scss";
+
+.navbar-menu{
+    height: 45px;
+    background-color: $primary;
+}
+.navbar-menu ul li{
+    list-style: none;
+    display: inline-block;
+    width: 15%;
+}
+.navbar-menu ul li a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.menu-links{
+    font-size: .8em;
+}
+.navbar-menu{
+    @media screen and (max-width: 680px) {
+      display: none !important;
+    }
+}
+.navbar-menu{
+    @media screen and (max-width: 739px) {
+      font-size: .9em;
+    }
+}
