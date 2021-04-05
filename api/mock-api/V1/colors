@@ -1,0 +1,30 @@
+[
+    {
+        "name": "preta",
+        "code": "#000000"
+    },
+    {
+        "name": "laranja",
+        "code": "#ff9900"
+    },
+    {
+        "name": "amarela",
+        "code": "#ffff00"
+    },
+    {
+        "name": "cinza",
+        "code": "#d1e0e0"
+    },
+    {
+        "name": "azul",
+        "code": "#1a75ff"
+    },
+    {
+        "name": "rosa",
+        "code": "#ff33cc"
+    },
+    {
+        "name": "bege",
+        "code": "#cc6600"
+    }
+]
